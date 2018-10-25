@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		6E16E60B0A56D84658ABD89D /* Pods_Haircutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3FA6BA7A45CFF8BB353B58 /* Pods_Haircutter.framework */; };
 		8CD62F3A21822E5B00E37584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD62F3921822E5B00E37584 /* AppDelegate.swift */; };
-		8CD62F3C21822E5B00E37584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD62F3B21822E5B00E37584 /* ViewController.swift */; };
-		8CD62F3F21822E5B00E37584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD62F3D21822E5B00E37584 /* Main.storyboard */; };
 		8CD62F4121822E5C00E37584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD62F4021822E5C00E37584 /* Assets.xcassets */; };
 		8CD62F4421822E5D00E37584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD62F4221822E5C00E37584 /* LaunchScreen.storyboard */; };
+		8CFEF9D22182344800D5D722 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9D12182344800D5D722 /* Constants.swift */; };
+		8CFEF9D42182346700D5D722 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9D32182346700D5D722 /* Initializable.swift */; };
+		8CFEF9DF2182352900D5D722 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9DA2182352900D5D722 /* InteractorInterface.swift */; };
+		8CFEF9E02182352900D5D722 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9DB2182352900D5D722 /* ViewInterface.swift */; };
+		8CFEF9E12182352900D5D722 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9DC2182352900D5D722 /* BaseWireframe.swift */; };
+		8CFEF9E22182352900D5D722 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9DD2182352900D5D722 /* PresenterInterface.swift */; };
+		8CFEF9E32182352900D5D722 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9DE2182352900D5D722 /* UIStoryboardExtension.swift */; };
+		8CFEF9EA2182354700D5D722 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E42182354700D5D722 /* Login.storyboard */; };
+		8CFEF9EB2182354700D5D722 /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E52182354700D5D722 /* LoginInterfaces.swift */; };
+		8CFEF9EC2182354700D5D722 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E62182354700D5D722 /* LoginPresenter.swift */; };
+		8CFEF9ED2182354700D5D722 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E72182354700D5D722 /* LoginViewController.swift */; };
+		8CFEF9EE2182354700D5D722 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E82182354700D5D722 /* LoginInteractor.swift */; };
+		8CFEF9EF2182354700D5D722 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFEF9E92182354700D5D722 /* LoginWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +31,22 @@
 		638FD2AFD543F6415AAAF9CE /* Pods-Haircutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haircutter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Haircutter/Pods-Haircutter.release.xcconfig"; sourceTree = "<group>"; };
 		8CD62F3621822E5B00E37584 /* Haircutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haircutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD62F3921822E5B00E37584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CD62F3B21822E5B00E37584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8CD62F3E21822E5B00E37584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD62F4021822E5C00E37584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD62F4321822E5C00E37584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CD62F4521822E5D00E37584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFEF9D12182344800D5D722 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CFEF9D32182346700D5D722 /* Initializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializable.swift; sourceTree = "<group>"; };
+		8CFEF9DA2182352900D5D722 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		8CFEF9DB2182352900D5D722 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		8CFEF9DC2182352900D5D722 /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		8CFEF9DD2182352900D5D722 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		8CFEF9DE2182352900D5D722 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		8CFEF9E42182354700D5D722 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8CFEF9E52182354700D5D722 /* LoginInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
+		8CFEF9E62182354700D5D722 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		8CFEF9E72182354700D5D722 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8CFEF9E82182354700D5D722 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		8CFEF9E92182354700D5D722 /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
 		9DD2632A2F967271FBCCD453 /* Pods-Haircutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Haircutter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Haircutter/Pods-Haircutter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +88,6 @@
 				8CD62F4D2182320500E37584 /* Modules */,
 				8CD62F4C218231FB00E37584 /* Resources */,
 				8CD62F4B218231ED00E37584 /* Supporting Files */,
-				8CD62F3B21822E5B00E37584 /* ViewController.swift */,
-				8CD62F3D21822E5B00E37584 /* Main.storyboard */,
 			);
 			path = Haircutter;
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 		8CD62F4D2182320500E37584 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8CFEF9CF218233FB00D5D722 /* Login */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -99,6 +120,11 @@
 		8CD62F4E2182320E00E37584 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8CFEF9D9218234DE00D5D722 /* Models */,
+				8CFEF9D8218234D400D5D722 /* API */,
+				8CFEF9D7218234C100D5D722 /* Extensions */,
+				8CFEF9D52182348100D5D722 /* Views */,
+				8CFEF9D62182349F00D5D722 /* VIPER */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -106,9 +132,72 @@
 		8CD62F4F2182321B00E37584 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				8CFEF9D02182342C00D5D722 /* Initializers */,
 				8CD62F3921822E5B00E37584 /* AppDelegate.swift */,
+				8CFEF9D12182344800D5D722 /* Constants.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		8CFEF9CF218233FB00D5D722 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEF9E42182354700D5D722 /* Login.storyboard */,
+				8CFEF9E52182354700D5D722 /* LoginInterfaces.swift */,
+				8CFEF9E62182354700D5D722 /* LoginPresenter.swift */,
+				8CFEF9E72182354700D5D722 /* LoginViewController.swift */,
+				8CFEF9E82182354700D5D722 /* LoginInteractor.swift */,
+				8CFEF9E92182354700D5D722 /* LoginWireframe.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8CFEF9D02182342C00D5D722 /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEF9D32182346700D5D722 /* Initializable.swift */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
+		8CFEF9D52182348100D5D722 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CFEF9D62182349F00D5D722 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEF9DC2182352900D5D722 /* BaseWireframe.swift */,
+				8CFEF9DA2182352900D5D722 /* InteractorInterface.swift */,
+				8CFEF9DD2182352900D5D722 /* PresenterInterface.swift */,
+				8CFEF9DE2182352900D5D722 /* UIStoryboardExtension.swift */,
+				8CFEF9DB2182352900D5D722 /* ViewInterface.swift */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		8CFEF9D7218234C100D5D722 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CFEF9D8218234D400D5D722 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8CFEF9D9218234DE00D5D722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AC8A45F3A99E1F17E7BEF430 /* Pods */ = {
@@ -189,7 +278,7 @@
 			files = (
 				8CD62F4421822E5D00E37584 /* LaunchScreen.storyboard in Resources */,
 				8CD62F4121822E5C00E37584 /* Assets.xcassets in Resources */,
-				8CD62F3F21822E5B00E37584 /* Main.storyboard in Resources */,
+				8CFEF9EA2182354700D5D722 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,22 +314,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD62F3C21822E5B00E37584 /* ViewController.swift in Sources */,
+				8CFEF9E02182352900D5D722 /* ViewInterface.swift in Sources */,
+				8CFEF9DF2182352900D5D722 /* InteractorInterface.swift in Sources */,
+				8CFEF9E32182352900D5D722 /* UIStoryboardExtension.swift in Sources */,
 				8CD62F3A21822E5B00E37584 /* AppDelegate.swift in Sources */,
+				8CFEF9EC2182354700D5D722 /* LoginPresenter.swift in Sources */,
+				8CFEF9E12182352900D5D722 /* BaseWireframe.swift in Sources */,
+				8CFEF9EB2182354700D5D722 /* LoginInterfaces.swift in Sources */,
+				8CFEF9D42182346700D5D722 /* Initializable.swift in Sources */,
+				8CFEF9EE2182354700D5D722 /* LoginInteractor.swift in Sources */,
+				8CFEF9D22182344800D5D722 /* Constants.swift in Sources */,
+				8CFEF9E22182352900D5D722 /* PresenterInterface.swift in Sources */,
+				8CFEF9ED2182354700D5D722 /* LoginViewController.swift in Sources */,
+				8CFEF9EF2182354700D5D722 /* LoginWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8CD62F3D21822E5B00E37584 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CD62F3E21822E5B00E37584 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8CD62F4221822E5C00E37584 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
